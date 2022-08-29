@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.MuiTableCell-paddingCheckbox,
+button[aria-label="Download CSV"],
+button[aria-label="Print"],
+button[aria-label="Filter Table"],
+button[aria-label="Table Toolbar"],
+button[aria-label="View Columns"] {
+  display: none !important;
+}
